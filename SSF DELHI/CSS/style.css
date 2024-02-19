@@ -1,0 +1,147 @@
+body{
+    font-family:sans-serif,'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 20px auto;
+    background-color: green;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(1, 1, 1);
+}
+.child-1{
+    display: flex;
+    justify-content:space-between;
+    gap: 100px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.child-2 a{
+padding: 10px 20px;
+background-color: blue;
+border-radius:20px;
+}
+
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.first {
+  flex: 1;
+  padding: 20px;
+}
+
+.second {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list {
+  margin-bottom: 10px;
+}
+
+.bi {
+  margin-right: 5px;
+  color: green;
+  padding: 5px;
+}
+.btn{
+    text-decoration: none;
+}
+.footer-col{
+  background-color: #333; /* Background color for the footer */
+  color: white; /* Text color for the footer */
+  padding: 20px; /* Padding around content inside the footer */
+
+}
+
+.footer-col {
+  width: 25%; /* Each column takes up 25% of the footer width */
+  float: left; /* Float the columns left so they sit next to each other */
+}
+
+.footer-col h4 {
+  margin-top: 0; /* Remove margin from the top of the heading */
+}
+
+.footer-col ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding from the ul */
+}
+
+.footer-col ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.footer-col ul li a {
+  color: white; /* Text color for the links */
+  text-decoration: none; /* Remove default underline from links */
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+
+
+
+.footer {
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+  padding: 20px; /* Add padding to the footer */
+  text-align: center; /* Align text to center */
+}
+
+.copyright {
+  margin-bottom: 10px; /* Add some space between copyright text and social icons */
+}
+
+.social-icons ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.social-icons ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add some space between social icons */
+}
+
+.social-icons ul li i {
+  font-size: 24px; /* Adjust the size of social media icons */
+}
+
+
+
+
+
+
+
+
+
+
